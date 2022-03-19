@@ -1,5 +1,6 @@
 name: ppg_ui
 description: flutter ui developed by powerpuffpenguin
+repository: https://github.com/powerpuffpenguin/ppg_ui
 version: 0.0.1
 
 environment:
