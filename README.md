@@ -1,2 +1,3 @@
 # ppg_ui
-flutter widget
+
+這是本喵做 flutter 開發時用到的一些重複組件，將它們單獨抽離到此以便重用
