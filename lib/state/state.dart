@@ -24,6 +24,13 @@ abstract class UIState<T extends StatefulWidget> extends State<T> {
   }
 
   @protected
+  void checkAlive() {
+    if (isClosed) {
+      throw Exception('wiget already closed');
+    }
+  }
+
+  @protected
   void aliveSetState(VoidCallback fn) {
     if (isNotClosed) {
       setState(fn);
